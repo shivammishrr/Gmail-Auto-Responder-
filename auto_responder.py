@@ -69,7 +69,7 @@ def create_message(sender, recipient, subject, message_text):
     return {'raw': base64.urlsafe_b64encode(message.as_bytes()).decode('utf-8')}
 
 def main():
-    gmail_id = 'shivammishrrr@gmail.com'
+    gmail_id = 'xyz@gmail.com'
     label_name = 'Vacation Auto-Responder'
     message_text = 'Thank you for your email. I am currently on vacation and will respond to your message when I return. Best regards, Shivam'
     
